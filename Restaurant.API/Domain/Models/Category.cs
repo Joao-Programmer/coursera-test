@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace Restaurant.API.Domain.Models
 {
     public class Category
@@ -9,5 +11,6 @@ namespace Restaurant.API.Domain.Models
         public string url {get; set;}
         
         public IList<MenuItems> menu_items {get; set;} = new List<MenuItems>();
+
     }
 }
