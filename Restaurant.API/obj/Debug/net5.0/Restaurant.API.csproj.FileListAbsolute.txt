@@ -35,3 +35,40 @@ C:\Projetos_Teste\coursera-test\Restaurant.API\obj\Debug\net5.0\Restaurant.API.d
 C:\Projetos_Teste\coursera-test\Restaurant.API\obj\Debug\net5.0\ref\Restaurant.API.dll
 C:\Projetos_Teste\coursera-test\Restaurant.API\obj\Debug\net5.0\Restaurant.API.pdb
 C:\Projetos_Teste\coursera-test\Restaurant.API\obj\Debug\net5.0\Restaurant.API.genruntimeconfig.cache
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\bin\Debug\net5.0\appsettings.Development.json
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\bin\Debug\net5.0\appsettings.json
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\bin\Debug\net5.0\Restaurant.API.exe
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\bin\Debug\net5.0\Restaurant.API.deps.json
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\bin\Debug\net5.0\Restaurant.API.runtimeconfig.json
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\bin\Debug\net5.0\Restaurant.API.runtimeconfig.dev.json
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\bin\Debug\net5.0\Restaurant.API.dll
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\bin\Debug\net5.0\ref\Restaurant.API.dll
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\bin\Debug\net5.0\Restaurant.API.pdb
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\obj\Debug\net5.0\Restaurant.API.csprojAssemblyReference.cache
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\obj\Debug\net5.0\Restaurant.API.GeneratedMSBuildEditorConfig.editorconfig
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\obj\Debug\net5.0\Restaurant.API.AssemblyInfoInputs.cache
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\obj\Debug\net5.0\Restaurant.API.AssemblyInfo.cs
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\obj\Debug\net5.0\Restaurant.API.csproj.CoreCompileInputs.cache
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\obj\Debug\net5.0\Restaurant.API.MvcApplicationPartsAssemblyInfo.cs
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\obj\Debug\net5.0\Restaurant.API.MvcApplicationPartsAssemblyInfo.cache
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\obj\Debug\net5.0\staticwebassets\Restaurant.API.StaticWebAssets.Manifest.cache
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\obj\Debug\net5.0\staticwebassets\Restaurant.API.StaticWebAssets.xml
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\obj\Debug\net5.0\scopedcss\bundle\Restaurant.API.styles.css
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\obj\Debug\net5.0\Restaurant.API.RazorTargetAssemblyInfo.cache
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\obj\Debug\net5.0\Restaurant.API.csproj.CopyComplete
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\obj\Debug\net5.0\Restaurant.API.dll
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\obj\Debug\net5.0\ref\Restaurant.API.dll
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\obj\Debug\net5.0\Restaurant.API.pdb
+J:\PASTA DE TESTES\Coursera\coursera-test\Restaurant.API\obj\Debug\net5.0\Restaurant.API.genruntimeconfig.cache

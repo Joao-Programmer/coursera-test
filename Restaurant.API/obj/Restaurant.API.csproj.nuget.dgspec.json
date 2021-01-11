@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos_Teste\\coursera-test\\Restaurant.API\\Restaurant.API.csproj": {}
+    "J:\\PASTA DE TESTES\\Coursera\\coursera-test\\Restaurant.API\\Restaurant.API.csproj": {}
   },
   "projects": {
-    "C:\\Projetos_Teste\\coursera-test\\Restaurant.API\\Restaurant.API.csproj": {
+    "J:\\PASTA DE TESTES\\Coursera\\coursera-test\\Restaurant.API\\Restaurant.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos_Teste\\coursera-test\\Restaurant.API\\Restaurant.API.csproj",
+        "projectUniqueName": "J:\\PASTA DE TESTES\\Coursera\\coursera-test\\Restaurant.API\\Restaurant.API.csproj",
         "projectName": "Restaurant.API",
-        "projectPath": "C:\\Projetos_Teste\\coursera-test\\Restaurant.API\\Restaurant.API.csproj",
-        "packagesPath": "C:\\Users\\joao_\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos_Teste\\coursera-test\\Restaurant.API\\obj\\",
+        "projectPath": "J:\\PASTA DE TESTES\\Coursera\\coursera-test\\Restaurant.API\\Restaurant.API.csproj",
+        "packagesPath": "C:\\Users\\programador10.12INFO\\.nuget\\packages\\",
+        "outputPath": "J:\\PASTA DE TESTES\\Coursera\\coursera-test\\Restaurant.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\joao_\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\programador10.12INFO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
