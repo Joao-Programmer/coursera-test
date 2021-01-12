@@ -9,7 +9,7 @@ namespace Restaurant.API.Domain.Models
         public string name {get; set;}
         public string special_instructions {get; set;}
         public string url {get; set;}        
-        public IList<MenuItems> menu_items {get; set;} = new List<MenuItems>();
+        public IList<MenuItem> menu_items {get; set;} = new List<MenuItem>();
 
     }
 }

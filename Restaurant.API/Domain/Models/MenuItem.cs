@@ -1,6 +1,6 @@
 namespace Restaurant.API.Domain.Models
 {
-    public class MenuItems
+    public class MenuItem
     {
         public int id { get; set; }
         public string description { get; set; }
