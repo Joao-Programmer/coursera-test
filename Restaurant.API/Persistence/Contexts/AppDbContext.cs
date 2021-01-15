@@ -23,6 +23,10 @@ namespace Restaurant.API.Persistence.Contexts
             builder.Entity<Category>().Property(p => p.name).IsRequired().HasMaxLength(30);
             builder.Entity<Category>().HasMany(p => p.menu_items).WithOne(p => p.category).HasForeignKey(p => p.categoryId);
 
+            builder.Entity<Category>().HasData{
+                new Category{ id = 100, name = "Fruits and Vegetables"},
+                new Category{ id = 101, name = "Dairy"}
+            };
             
         }
     }

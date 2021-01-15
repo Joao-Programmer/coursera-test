@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "J:\\PASTA DE TESTES\\Coursera\\coursera-test\\Restaurant.API\\Restaurant.API.csproj": {}
+    "Z:\\PASTA DE TESTES\\Coursera\\coursera-test\\Restaurant.API\\Restaurant.API.csproj": {}
   },
   "projects": {
-    "J:\\PASTA DE TESTES\\Coursera\\coursera-test\\Restaurant.API\\Restaurant.API.csproj": {
+    "Z:\\PASTA DE TESTES\\Coursera\\coursera-test\\Restaurant.API\\Restaurant.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "J:\\PASTA DE TESTES\\Coursera\\coursera-test\\Restaurant.API\\Restaurant.API.csproj",
+        "projectUniqueName": "Z:\\PASTA DE TESTES\\Coursera\\coursera-test\\Restaurant.API\\Restaurant.API.csproj",
         "projectName": "Restaurant.API",
-        "projectPath": "J:\\PASTA DE TESTES\\Coursera\\coursera-test\\Restaurant.API\\Restaurant.API.csproj",
-        "packagesPath": "C:\\Users\\programador10.12INFO\\.nuget\\packages\\",
-        "outputPath": "J:\\PASTA DE TESTES\\Coursera\\coursera-test\\Restaurant.API\\obj\\",
+        "projectPath": "Z:\\PASTA DE TESTES\\Coursera\\coursera-test\\Restaurant.API\\Restaurant.API.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "Z:\\PASTA DE TESTES\\Coursera\\coursera-test\\Restaurant.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\programador10.12INFO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,6 +54,10 @@
                 "NU1605"
               ]
             },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.2, )"
@@ -79,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
