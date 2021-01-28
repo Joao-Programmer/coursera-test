@@ -16,5 +16,7 @@ namespace Restaurant.API.Persistence.Repositories
         public async Task<IEnumerable<Category>> ListAsync(){
             return await _context.Categories.ToListAsync();
         }
+
+        // teste commit nova vm visualstudio 1.2
     }
 }
