@@ -17,6 +17,5 @@ namespace Restaurant.API.Persistence.Repositories
             return await _context.Categories.ToListAsync();
         }
 
-        // teste commit nova vm visualstudio 1.2
     }
 }
