@@ -6,6 +6,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Restaurant.API.Domain.Repositories;
+using Restaurant.API.Domain.Services;
+using Restaurant.API.Persistence.Contexts;
+using Restaurant.API.Persistence.Repositories;
+using Restaurant.API.Services;
 
 namespace Restaurant.API
 {
@@ -20,11 +25,15 @@ namespace Restaurant.API
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+            services.AddMvc(option => option.EnableEndpointRouting = false);
 
-            // services.AddDbContext<AppContext>(options => {
-            //     options.UseSqlServer
-            // });
+            services.AddDbContext<AppDbContext>(options => {
+                options.UseSqlServer(Configuration.GetConnectionString("SQL_DB_RestaurantApi"));
+            });
+
+            services.AddScoped<ICategoryRespository, CategoryRepository>();
+            services.AddScoped<ICategoryService, CategoryService>();
          
         }
 
@@ -33,20 +42,15 @@ namespace Restaurant.API
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Restaurant.API v1"));
+            }
+            else{
+                app.UseHsts(); // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
             }
 
             app.UseHttpsRedirection();
 
-            app.UseRouting();
+            app.UseMvc();
 
-            app.UseAuthorization();
-
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
-            });
         }
     }
 }
