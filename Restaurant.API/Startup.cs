@@ -18,7 +18,7 @@ namespace Restaurant.API
     {
         public Startup(IConfiguration configuration)
         {
-            Configuration = configuration;            
+            Configuration = configuration;
         }
 
         public IConfiguration Configuration { get; }
@@ -29,7 +29,7 @@ namespace Restaurant.API
             services.AddMvc(option => option.EnableEndpointRouting = false);
 
             services.AddDbContext<AppDbContext>(options => {
-                options.UseSqlServer(Configuration.GetConnectionString("SQL_DB_RestaurantApi"));
+                options.UseSqlServer(Configuration.GetConnectionString("12_DB_RestaurantApi"));
             });
 
             services.AddScoped<ICategoryRespository, CategoryRepository>();
