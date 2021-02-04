@@ -27,8 +27,8 @@ namespace Restaurant.API.Persistence.Contexts
             builder.Entity<Category>().HasMany(p => p.menu_items).WithOne(p => p.category).HasForeignKey(p => p.categoryId);
 
             builder.Entity<Category>().HasData(
-                new Category{ name = "Lunch", short_name = "L", special_instructions = "Sunday-Friday 11:15am-3:00pm. Served with your choice of rice (Vegetable Fried RIce, Steamed Rice, Brown Rice), AND EITHER soup (Hot & Sour, Wonton, Vegetable, Egg Drop, Chicken Corn Soup) OR veggie egg roll. $1.00 extra to have both soup and egg roll.", url = "aguardando"},
-                new Category{ name = "Soup", short_name = "A", special_instructions = "", url = "aguardando"}
+                new Category{id = 100, name = "Lunch", short_name = "L", special_instructions = "Sunday-Friday 11:15am-3:00pm. Served with your choice of rice (Vegetable Fried RIce, Steamed Rice, Brown Rice), AND EITHER soup (Hot & Sour, Wonton, Vegetable, Egg Drop, Chicken Corn Soup) OR veggie egg roll. $1.00 extra to have both soup and egg roll.", url = "aguardando"},
+                new Category{id = 101, name = "Soup", short_name = "A", special_instructions = "", url = "aguardando"}
             );
 
             builder.Entity<MenuItem>().ToTable("MenuItems");
@@ -37,8 +37,8 @@ namespace Restaurant.API.Persistence.Contexts
             builder.Entity<MenuItem>().Property(p => p.description).IsRequired().HasMaxLength(4000);
             builder.Entity<MenuItem>().Property(p => p.large_portion_name).IsRequired().HasMaxLength(100);
             builder.Entity<MenuItem>().Property(p => p.name).IsRequired().HasMaxLength(100);
-            builder.Entity<MenuItem>().Property(p => p.price_large).IsRequired();
-            builder.Entity<MenuItem>().Property(p => p.price_small).IsRequired();
+            builder.Entity<MenuItem>().Property(p => p.price_large).IsRequired().HasColumnType("decimal(12,2)");
+            builder.Entity<MenuItem>().Property(p => p.price_small).IsRequired().HasColumnType("decimal(12,2)");
             builder.Entity<MenuItem>().Property(p => p.short_name).IsRequired().HasMaxLength(50);
             builder.Entity<MenuItem>().Property(p => p.small_portion_name).IsRequired().HasMaxLength(100);
 

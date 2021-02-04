@@ -29,7 +29,7 @@ namespace Restaurant.API
             services.AddMvc(option => option.EnableEndpointRouting = false);
 
             services.AddDbContext<AppDbContext>(options => {
-                options.UseSqlServer(Configuration.GetConnectionString("12_DB_RestaurantApi"));
+                options.UseSqlServer(Configuration.GetConnectionString("DB_RestaurantApi"));
             });
 
             services.AddScoped<ICategoryRespository, CategoryRepository>();
