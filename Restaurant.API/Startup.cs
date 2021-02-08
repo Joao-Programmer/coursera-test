@@ -33,7 +33,9 @@ namespace Restaurant.API
             });
 
             services.AddScoped<ICategoryRespository, CategoryRepository>();
-            services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<ICategoryService, CategoryService>();            
+
+            services.AddControllersWithViews();
          
         }
 
