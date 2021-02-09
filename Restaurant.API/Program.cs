@@ -32,8 +32,9 @@ namespace Restaurant.API
                 var services = scope.ServiceProvider;
                 try
                 {
-                    var context = services.GetRequiredService<SchoolContext>();
-                    DbInitializer.Initialize(context);
+                    var context = services.GetRequiredService<AppDbContext>();
+                    //DbInitializer.Initialize(context);
+                    context.Database.Migrate();
                 }
                 catch (Exception ex)
                 {
